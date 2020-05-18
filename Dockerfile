@@ -19,8 +19,8 @@ RUN yarn global add create-elm-app
 
 EXPOSE 3000
 
-COPY docker-entrypoint.sh /usr/local/bin/
-ENTRYPOINT ["docker-entrypoint.sh"]
+#COPY docker-entrypoint.sh /usr/local/bin/
+#ENTRYPOINT ["docker-entrypoint.sh"]
 
 WORKDIR /media
-CMD [ "elm" ]
+CMD [ "/usr/local/bin/elm" ]
