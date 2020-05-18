@@ -10,3 +10,7 @@ The image is available on [DockerHub](https://hub.docker.com) and can be used as
 ```bash
 $ docker run --rm -it -v `pwd`:/media -p 3000:3000 andrebell/docker-elm elm
 ```
+
+## Sources
+
+[GitHub](https://github.com/andrebell/docker-elm)
