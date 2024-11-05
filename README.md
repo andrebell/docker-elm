@@ -1,5 +1,9 @@
 # docker-elm
 
+> [!CAUTION]
+> Since Elm sees no longer active development, I have stopped to use Elm.
+> Hence, I archive this project
+
 This is a dockerized version of [ELM](https://elm-lang.org) and some ELM tools.
 The docker image contains the elm executable and [create-elm-app](https://github.com/halfzebra/create-elm-app).
 
